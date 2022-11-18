@@ -133,16 +133,6 @@ cya_rf2 %>%
   arrange(-.pred) %>%
   select(name, lg, team, .pred)
 
-ㅔㅔ#아메리칸리그는 게릿콜, 내셔널 리그에는 제이컵 디그롬 수상한다고 예측을 함.
-
-
-
-
-
-
-
-
-
 #사이영상 수상에서의 중요한 기록 찾기
 install.packages('randomForestExplainer')
 library('randomForestExplainer')
